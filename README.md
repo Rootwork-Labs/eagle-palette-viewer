@@ -45,7 +45,7 @@ Parses `--color-{family}-{shade}` custom properties and groups preview by family
 Symlink this repo into Eagle's plugin directory:
 
 ```bash
-ln -sfn "/path/to/eagle-palette-viewer" "$HOME/Library/Application Support/Eagle/Plugins/ianoff-palette-viewer"
+ln -sfn "/path/to/eagle-palette-viewer" "$HOME/Library/Application Support/Eagle/Plugins/palette-viewer"
 ```
 
 Restart Eagle after installing or updating the plugin.
