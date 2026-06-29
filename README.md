@@ -2,6 +2,10 @@
 
 Eagle format extension for previewing Affinity `.afpalette` files, Adobe `.ase` swatch files, and palette-oriented `.css` token files.
 
+Example display:
+<img width="1039" height="795" alt="Example of showing ase, css, and afpalettes in Eagle using the plugin." src="https://github.com/user-attachments/assets/fe9378b7-b317-4c92-96ae-9627ec030642" />
+
+
 When `.afpalette`, `.ase`, or `.css` files are imported into Eagle, this plugin:
 
 1. Generates a horizontal swatch-strip thumbnail for the library grid
