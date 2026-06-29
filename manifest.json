@@ -1,0 +1,59 @@
+{
+  "id": "ianoff-palette-viewer",
+  "version": "0.2.7",
+  "platform": "all",
+  "arch": "all",
+  "name": "Palette Viewer",
+  "logo": "/palette-viewer.png",
+  "keywords": ["palette", "colors", "swatches", "afpalette", "ase", "clr", "css", "affinity", "macos"],
+  "devTools": false,
+  "main": {
+    "serviceMode": true,
+    "url": "service/index.html",
+    "width": 320,
+    "height": 120,
+    "runAfterInstall": true
+  },
+  "preview": {
+    "afpalette": {
+      "thumbnail": {
+        "path": "thumbnail/palette.js",
+        "size": 400,
+        "allowZoom": false
+      },
+      "viewer": {
+        "path": "viewer/palette.html"
+      }
+    },
+    "css": {
+      "thumbnail": {
+        "path": "thumbnail/palette.js",
+        "size": 400,
+        "allowZoom": false
+      },
+      "viewer": {
+        "path": "viewer/palette.html"
+      }
+    },
+    "ase": {
+      "thumbnail": {
+        "path": "thumbnail/palette.js",
+        "size": 400,
+        "allowZoom": false
+      },
+      "viewer": {
+        "path": "viewer/palette.html"
+      }
+    },
+    "clr": {
+      "thumbnail": {
+        "path": "thumbnail/palette.js",
+        "size": 400,
+        "allowZoom": false
+      },
+      "viewer": {
+        "path": "viewer/palette.html"
+      }
+    }
+  }
+}

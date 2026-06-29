@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Logs and runtime output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency/build output, if the plugin later grows a toolchain
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Local editor/project state
+.idea/
+.vscode/
+
+# Secrets — use 1Password Environments local .env mount (never commit)
+.env
+.env.local
+.env.*.local
+
+# Local reports exported while testing
+reports/
+*.report.json
+palette-viewer-*.json
+window-state.json
+test-output/
+
+# Eagle package/export artifacts
+*.eaglepack
+*.zip

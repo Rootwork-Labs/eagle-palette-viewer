@@ -1,0 +1,130 @@
+:root {
+  color-scheme: light dark;
+  --bg: #151519;
+  --panel: #202026;
+  --panel-2: #2a2a31;
+  --text: #f4f4f6;
+  --muted: #a8a8b2;
+  --border: #3a3a43;
+  --accent: #5db7ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  padding: 16px;
+}
+
+.palette-header {
+  margin-bottom: 16px;
+}
+
+.palette-header h1 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 650;
+}
+
+.palette-header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.swatch-card {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.swatch-chip {
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.swatch-meta {
+  display: grid;
+  gap: 2px;
+  font-size: 12px;
+}
+
+.swatch-meta strong {
+  font-weight: 600;
+}
+
+.swatch-meta span {
+  color: var(--muted);
+  word-break: break-word;
+}
+
+.family-section {
+  margin-bottom: 18px;
+}
+
+.family-section h2 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.family-ramp {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+  gap: 6px;
+}
+
+.ramp-chip {
+  display: grid;
+  gap: 4px;
+  min-width: 52px;
+}
+
+.ramp-color {
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ramp-label {
+  text-align: center;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.ungrouped-section {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  margin-top: 8px;
+}
+
+.error {
+  color: #ffd6d6;
+  background: #2a1719;
+  border: 1px solid #5a2b2f;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.empty {
+  color: var(--muted);
+}

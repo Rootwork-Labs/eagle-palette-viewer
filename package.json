@@ -1,0 +1,11 @@
+{
+  "name": "eagle-palette-viewer",
+  "version": "0.2.2",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "generate-fixtures": "node scripts/generate-fixtures.mjs",
+    "test": "node test/afpalette-parser.test.js && node test/ase-parser.test.js && node test/clr-parser.test.js && node test/css-palette-parser.test.js && node test/viewer-path.test.js"
+  }
+}
